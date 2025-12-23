@@ -7,7 +7,7 @@ const config = {
   tagline: 'An AI-Native Textbook for Physical AI & Humanoid Robotics',
   favicon: 'img/logo.svg',
 
-  url: 'https://book-wajahatfrontdev-progs-projects.vercel.app',
+  url: 'https://bluebackend-sepia.vercel.app/',
   baseUrl: '/',
 
   organizationName: 'wajahatfrontdev-prog',
