@@ -1,0 +1,69 @@
+.heroBanner {
+  padding: 6rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top,
+      rgba(59,130,246,0.25),
+      transparent 60%),
+    linear-gradient(180deg, #020617 0%, #071126 100%);
+  border-bottom: 3px solid rgba(59,130,246,0.4);
+}
+
+.heroBanner h1 {
+  color: #93c5fd;
+  text-shadow: 0 0 30px rgba(59,130,246,0.4);
+  font-size: 3.5rem;
+}
+
+.heroDescription {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #cbd5f5;
+}
+
+.modules,
+.features,
+.techStack,
+.learningPath {
+  padding: 4rem 0;
+}
+
+.moduleCard,
+.featureCard,
+.techCard,
+.pathStep {
+  background: rgba(2,6,23,0.75);
+  border: 2px solid rgba(59,130,246,0.35);
+  border-radius: 15px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.moduleCard:hover,
+.featureCard:hover,
+.techCard:hover,
+.pathStep:hover {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 20px 60px rgba(59,130,246,0.25);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.statNumber {
+  font-size: 3rem;
+  color: #60a5fa;
+  text-shadow: 0 0 15px rgba(59,130,246,0.4);
+}
+
+.statLabel {
+  color: #cbd5f5;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#39ff14">
+  <meta name="description" content="Master Physical AI & Humanoid Robotics with ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action models. Interactive AI-powered learning platform.">
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  
+  <!-- Preload critical assets -->
+  <link rel="preload" as="style" href="/assets/css/styles.css">
+  
+  <title>Physical AI & Humanoid Robotics - Interactive Textbook</title>
+</head>
+<body>
+  <div id="__docusaurus"></div>
+</body>
+</html>

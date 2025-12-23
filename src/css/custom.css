@@ -1,0 +1,189 @@
+/* ======================================================
+   GLOBAL VARIABLES
+====================================================== */
+:root {
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+
+  --accent-yellow: #fbbf24;
+
+  --ifm-background-color: #f8fafc;
+  --ifm-background-surface-color: #ffffff;
+
+  --ifm-color-content: #0f172a;
+  --ifm-heading-color: #0f172a;
+
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #f1f5f9;
+
+  --docusaurus-highlighted-code-line-bg: rgba(59,130,246,0.1);
+}
+
+/* ======================================================
+   DARK THEME CORE
+====================================================== */
+html[data-theme='dark'] {
+  --ifm-background-color: #020617;
+  --ifm-background-surface-color: #020617;
+
+  --ifm-color-content: #e5e7eb;
+  --ifm-heading-color: #93c5fd;
+
+  --ifm-navbar-background-color: #020617;
+  --ifm-footer-background-color: #020617;
+
+  --docusaurus-highlighted-code-line-bg: rgba(59,130,246,0.25);
+  color-scheme: dark;
+}
+
+/* ======================================================
+   BASE
+====================================================== */
+body {
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+}
+
+main {
+  background: var(--ifm-background-color);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  color: var(--ifm-heading-color);
+}
+
+/* ======================================================
+   NAVBAR
+====================================================== */
+.navbar {
+  background: var(--ifm-navbar-background-color) !important;
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.navbar__title {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 700;
+}
+
+.navbar__link {
+  color: var(--ifm-color-content) !important;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* ======================================================
+   HERO SECTION
+====================================================== */
+html[data-theme='dark'] .hero,
+html[data-theme='dark'] .heroBanner {
+  background:
+    radial-gradient(circle at top,
+      rgba(59,130,246,0.25),
+      transparent 60%),
+    linear-gradient(180deg, #020617 0%, #071126 100%) !important;
+
+  border-bottom: 2px solid rgba(59,130,246,0.4);
+}
+
+html[data-theme='dark'] .hero__title,
+html[data-theme='dark'] .heroBanner h1 {
+  color: #93c5fd !important;
+  text-shadow: 0 0 30px rgba(59,130,246,0.35);
+}
+
+html[data-theme='dark'] .hero__subtitle {
+  color: #cbd5f5 !important;
+}
+
+/* ======================================================
+   BLUE SECTIONS (YOUR REQUEST 🔥)
+====================================================== */
+
+/* Course Modules */
+html[data-theme='dark'] .modules {
+  background:
+    radial-gradient(circle at top,
+      rgba(59,130,246,0.22),
+      transparent 65%),
+    linear-gradient(180deg, #020617, #071126);
+  border-top: 2px solid rgba(59,130,246,0.35);
+}
+
+/* Why Choose This Course */
+html[data-theme='dark'] .features {
+  background:
+    radial-gradient(circle at center,
+      rgba(59,130,246,0.18),
+      transparent 70%),
+    linear-gradient(180deg, #020617, #071126);
+  border-top: 2px solid rgba(59,130,246,0.35);
+}
+
+/* Technologies You'll Master */
+html[data-theme='dark'] .techStack {
+  background:
+    radial-gradient(circle at top,
+      rgba(59,130,246,0.2),
+      transparent 65%),
+    linear-gradient(180deg, #020617, #071126);
+  border-top: 2px solid rgba(59,130,246,0.35);
+}
+
+/* Your Learning Journey */
+html[data-theme='dark'] .learningPath {
+  background:
+    radial-gradient(circle at center,
+      rgba(59,130,246,0.2),
+      transparent 65%),
+    linear-gradient(180deg, #020617, #071126);
+  border-top: 2px solid rgba(59,130,246,0.35);
+}
+
+/* Section Headings */
+.modules h2,
+.features h2,
+.techStack h2,
+.learningPath h2 {
+  color: #93c5fd;
+  text-shadow: 0 0 15px rgba(59,130,246,0.35);
+}
+
+/* ======================================================
+   CARDS
+====================================================== */
+.moduleCard,
+.featureCard,
+.techCard,
+.pathStep {
+  background: rgba(2,6,23,0.75);
+  border: 1px solid rgba(59,130,246,0.3);
+  backdrop-filter: blur(8px);
+}
+
+.moduleCard h3,
+.featureCard h3,
+.techCard h3,
+.pathStep h3 {
+  color: #60a5fa;
+}
+
+.moduleCard p,
+.featureCard p,
+.techCard p,
+.pathStep p {
+  color: #cbd5f5;
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+.footer {
+  background: linear-gradient(180deg, #071126, #020617);
+  border-top: 2px solid var(--ifm-color-primary);
+}
