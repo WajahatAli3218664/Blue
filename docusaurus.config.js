@@ -10,7 +10,7 @@ const config = {
   url: 'https://bluebackend-sepia.vercel.app/',
   baseUrl: '/',
 
-  organizationName: 'wajahatfrontdev-prog',
+  organizationName: 'Shifa-book',
   projectName: 'book',
 
   onBrokenLinks: 'warn',
@@ -113,7 +113,7 @@ const config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/wajahatfrontdev-prog/book',
+          href: 'https://github.com/shifabaloch13',
           label: 'GitHub',
           position: 'right',
         },
@@ -144,11 +144,11 @@ const config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/wajahatfrontdev-prog/book',
+              href: 'https://github.com/shifabaloch13',
             },
             {
               label: 'Discussions',
-              href: 'https://github.com/wajahatfrontdev-prog/book/discussions',
+              href: 'https://github.com/shifabaloch13',
             },
           ],
         },
