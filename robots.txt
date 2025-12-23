@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://your-docusaurus-test-site.com/sitemap.xml

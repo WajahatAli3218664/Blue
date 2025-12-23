@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue Alien Logo (dark) -->
+  <!-- Background circle in blue for dark theme -->
+  <circle cx="20" cy="20" r="18" fill="#1976d2" />
+
+  <!-- Head (white) -->
+  <ellipse cx="20" cy="18" rx="11" ry="11" fill="#ffffff" />
+
+  <!-- Eyes -->
+  <ellipse cx="13.5" cy="16" rx="3.6" ry="5.6" transform="rotate(-12 13.5 16)" fill="#000000" />
+  <ellipse cx="26.5" cy="16" rx="3.6" ry="5.6" transform="rotate(12 26.5 16)" fill="#000000" />
+  <circle cx="12.3" cy="14.6" r="0.8" fill="#1976d2" opacity="0.95"/>
+  <circle cx="25.7" cy="14.6" r="0.8" fill="#1976d2" opacity="0.95"/>
+
+  <!-- Small Mouth -->
+  <path d="M15 24c1.5 1 4.5 1 6 0" stroke="#0b3b66" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+</svg>
